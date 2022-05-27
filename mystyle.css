@@ -1,0 +1,417 @@
+
+
+
+
+body {
+    margin: 0;
+    background-color:rgb(245, 188, 197)}
+  
+  /* navigationbar */
+  .navbar {
+    height: 100vh;
+    width: 100%;
+    background-image: url("hijab.JPG");
+    background-size: cover;
+    background-position: center;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .logo{
+    color:rgb(4, 83, 4);
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(204, 41, 69);}
+    nav ul li {
+        display: inline-block;
+        font-weight: bold;
+        text-transform: capitalize;
+        background-color: lightskyblue;
+        color: rgb(228, 48, 78)
+        text-decoration:none;
+        border:2px solid transparent;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 40px;
+        font-size: 40px;
+    }
+
+    nav a:hover {
+      color:rgb(221, 17, 51);;
+      font-size: 25px;
+      transition: .4s;
+    } 
+    /*button......................*/
+    .btn{
+        background-color: lightskyblue;
+        color: rgb(221, 17, 51);
+        text-decoration:none;
+        border:2px solid transparent;
+        font-weight: bold;
+        padding: 10px 20px;
+        border-radius: 40px;
+        font-size: 30px;
+    }
+    .welcome{
+        position: absolute;
+        top: 8%;
+        left:0%;
+        transform: translateY(-50);
+        margin-left: 10%;
+        margin-top: 20%;
+    
+    }
+    .welcome h4{
+        color: rgb(4, 83, 4);
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    h1{
+        color:rgb(221, 17, 51) ;
+        margin:20px 0px 20px;
+        font-size: 80px;
+    }
+    h3{
+        Color:rgb(221, 17, 51);
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    h4{
+        color: black;
+        letter-spacing: 2px;
+        font-size: 25px;
+    }
+    .welcome a {
+  background-color: bisque;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: maroon;
+  display: inline-block;
+  /* margin: 30px 0; */
+  border-radius: 5px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(216, 235, 246);
+}
+.about img{
+    height: auto;
+    width: 500px;
+}
+.about about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: maroon;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 45px;
+
+}
+.about-text h5{
+    color: rgb(221, 17, 51);
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 45px;}
+    .welcome a {
+  background-color: bisque;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: maroon;
+  display: inline-block;
+  /* margin: 30px 0; */
+  border-radius: 5px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(216, 235, 246);
+}
+.about img{
+    height: auto;
+    width: 500px;
+}
+.about about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: maroon;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 45px;
+
+}
+.about-text h5{
+    color: rgb(221, 17, 51);
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 45px;}
+    .welcome a {
+  background-color: bisque;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: maroon;
+  display: inline-block;
+  /* margin: 30px 0; */
+  border-radius: 5px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(216, 235, 246);
+}
+.about img{
+    height: auto;
+    width: 500px;
+}
+.about about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: maroon;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 45px;
+
+}
+.about-text h5{
+    color: rgb(221, 17, 51);
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 45px;}
+}
+span{
+    color: rgb(33, 108, 83);
+}
+.about-text p{
+    font-size: 25px;
+    color: rgb(221, 17, 51);
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 45px;
+}
+button{
+    background-color: #b6b6fd;
+    color: whitesmoke;
+    text-decoration: none;
+    border: 20px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 45px;
+}
+button:hover{
+    background-color:transparent;
+    border: 2px solid azure;
+    cursor: pointer;
+}
+/*:.........*/
+.service{
+    background: rgb(252, 202, 202);
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+    background-image: url("123.jpg");
+    background-size: cover;
+}
+h2{
+    color: rgb(240, 35, 70);
+    font-size: 50px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 400px;
+
+
+}
+
+.card{
+    height: 600px;
+    width: 500px;
+    padding: 20px 35px;
+    background: rgb(236, 177, 177);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.card p1{background: rgb(248, 141, 159);
+    color: maroon;
+    text-decoration: none;
+    border: 20px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin: 40px;
+}
+.card p1:hover{
+    background-color: pink;
+    border: 2px solid maroon;
+    cursor: pointer;
+
+}
+.contact{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    align-items: center;
+    background-image: url("contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+.contact-form h1{
+    font-size: 50px;
+    text-align: center;
+}
+.contact-form p{
+
+    text-align: center;
+}
+.contact-form{
+    color:maroon;
+    font-size: 45px;
+    text-align: left;
+
+}
+.contact-form form{
+    position: relative;
+}
+.contact-form form input,form textarea{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: honeydew;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    resize: none;
+    height: 250px;
+
+}
+.contact-form form .btn{
+    display: inline-block;
+    background: maroon;
+    color: beige;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 20px solid transparent;
+    border-radius: 19px;
+    width: 220px;
+    transform: ease .20s;
+    cursor: pointer;
+}
+.contact-form form .btn:hover{
+    border-radius: 2px solid rgb(241, 57, 100);
+    background: rgb(243, 100, 133);
+    transform: scale(1.1);
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 35px;
+    width: 500px;
+    text-align: center;
+    line-height: 70px;
+
+}
+footer h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+footer{
+    height: 100vh;
+    width: 100%;;}
+    footer p{
+        font-size: 60px;
+        color: white;
+        text-align: center;}
+
+
